@@ -1,0 +1,30 @@
+extends layout
+
+block content
+ .jumbotron
+      .container
+        h1 #{title}
+        p
+          | Is your computer slow? Having trouble accessing files? Experienced any suspicious activity? Then, you've just come to the right place. Let one of our tech gurus take care of you and your PC needs.
+        p
+          a.btn.btn-primary.btn-lg(href='/about', role='button') Learn more »
+    .container
+      .row
+        .col-md-4
+          h2 Virus Removal
+          p
+            | We'll get rid of these darn computerized scoundrels like a fly meets a fly-swatter!
+          p
+            a.btn.btn-default(href='/virus-removal', role='button') View details »
+        .col-md-4
+          h2 Hardware Issues
+          p
+            | Working with hardware can sure be "hard" sometimes. But don't worry, we've got you covered!
+          p
+            a.btn.btn-default(href='hardware-issues', role='button') View details »
+        .col-md-4
+          h2 Software Issues
+          p
+            | Sometimes the softest of things can be the hardest to deal with. Luckily, we've got your back!
+          p
+            a.btn.btn-default(href='software-issues', role='button') View details »
